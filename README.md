@@ -6,10 +6,13 @@ A hash table with separate chaining, written without the built-in `dict`.
 ## Installation
 
 ```bash
-pip install .
+pip install MyaDictionary
 ```
 
 ## Usage
+
+The package is `MyaDictionary` and the class inside it is `MyADictionary`
+(capital A). The constructor takes an iterable of `(key, value)` pairs.
 
 ```python
 from MyaDictionary import MyADictionary
