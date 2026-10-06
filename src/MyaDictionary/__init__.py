@@ -1,4 +1,4 @@
-"""A dictionary implemented from scratch, without the built-in ``dict``.
+"""A dictionary implemented from scratch.
 
 The package exports a single class, :class:`MyADictionary`, a generic hash
 table with separate chaining that mirrors the behaviour of the built-in
@@ -7,6 +7,7 @@ table with separate chaining that mirrors the behaviour of the built-in
 Basic usage::
 
     >>> from MyaDictionary import MyADictionary
+    >>> e = MyADictionary()
     >>> d = MyADictionary([("a", 1), ("b", 2)])
     >>> d["c"] = 3
     >>> d["a"]
@@ -19,6 +20,7 @@ Basic usage::
     3
     >>> sorted(d.items())
     [('a', 1), ('b', 2)]
+
 """
 
 from .myadictionary import MyADictionary
