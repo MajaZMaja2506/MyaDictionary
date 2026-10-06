@@ -1,7 +1,7 @@
 # MyaDictionary
 Implementation of a dictionary in Python
 
-A hash table with separate chaining, written without the built-in `dict`.
+A hash table with separate chaining.
 
 ## Requirements
 
