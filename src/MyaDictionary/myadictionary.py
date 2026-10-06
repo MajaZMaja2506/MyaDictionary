@@ -8,6 +8,9 @@ T = TypeVar("T")
 _MISSING = object()
 
 class MyADictionary(Generic[K, V]):
+    DEFAULT_CAPACITY = 16
+    LOAD_FACTOR = 0.75
+
     def __init__(self, items: Iterable[tuple[K, V]] | None = None) -> None:
         self._capacity = self.DEFAULT_CAPACITY
         self._size = 0
